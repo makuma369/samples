@@ -3,6 +3,14 @@ import glob
 import os
 from datetime import datetime, timedelta
 
+"write by google ai studio"
+"date:2024-11-29"
+"与えた命令"
+'''pythonのプログラムの作成で、ファイルから、tid is null one_message という文字列の行だけ抜き出し、
+その行の中の35からはじまる15桁の数字の行数をそれぞれカウントし、その際ファイルパスはdev.log.-yyyy-mm-ddというファイルパスで、
+2024-08-18から開始し、終了日の2024-11-24までの集計を記録し、一つのファイルに出力する。その際に、日付の厳密なチェックを行い、
+存在しない日付はスキップする。出力ファイル名は、開始日+終了日_count.txtとする 例外処理を随所に入れる'''
+
 def count_numbers_in_logs(start_date_str, end_date_str):
     """
     指定された期間のログファイルから特定の文字列と数字を抽出し、カウントする関数。
